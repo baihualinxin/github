@@ -15,6 +15,7 @@
 		B769BC67248F78B500838013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B769BC66248F78B500838013 /* main.m */; };
 		B769BC71248F78B500838013 /* githubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B769BC70248F78B500838013 /* githubTests.m */; };
 		B769BC7C248F78B500838013 /* githubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B769BC7B248F78B500838013 /* githubUITests.m */; };
+		B769BC8E248F7DFF00838013 /* VCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B769BC8D248F7DFF00838013 /* VCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B769BC77248F78B500838013 /* githubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B769BC7B248F78B500838013 /* githubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = githubUITests.m; sourceTree = "<group>"; };
 		B769BC7D248F78B500838013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B769BC8C248F7DFF00838013 /* VCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCViewController.h; sourceTree = "<group>"; };
+		B769BC8D248F7DFF00838013 /* VCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				B769BC62248F78B500838013 /* LaunchScreen.storyboard */,
 				B769BC65248F78B500838013 /* Info.plist */,
 				B769BC66248F78B500838013 /* main.m */,
+				B769BC8C248F7DFF00838013 /* VCViewController.h */,
+				B769BC8D248F7DFF00838013 /* VCViewController.m */,
 			);
 			path = github;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B769BC5C248F78B400838013 /* ViewController.m in Sources */,
+				B769BC8E248F7DFF00838013 /* VCViewController.m in Sources */,
 				B769BC67248F78B500838013 /* main.m in Sources */,
 				B769BC59248F78B400838013 /* AppDelegate.m in Sources */,
 			);
