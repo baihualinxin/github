@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-      NSLog(@"分支2222");
+    UIButton *btn=[[UIButton alloc]init];
+    [self.view addSubview:btn];
 }
 
 /*
