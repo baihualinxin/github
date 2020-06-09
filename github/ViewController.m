@@ -18,6 +18,8 @@
     [super viewDidLoad];
     NSLog(@"ceshi");
     NSLog(@"这个是测试分支");
+    
+    NSLog(@"测试分支");
 }
 
 
