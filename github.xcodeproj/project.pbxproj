@@ -17,6 +17,7 @@
 		B769BC7C248F78B500838013 /* githubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B769BC7B248F78B500838013 /* githubUITests.m */; };
 		B769BC8E248F7DFF00838013 /* VCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B769BC8D248F7DFF00838013 /* VCViewController.m */; };
 		B769BC91248F832F00838013 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B769BC90248F832F00838013 /* testViewController.m */; };
+		B769BC94248F8BCC00838013 /* branchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B769BC93248F8BCC00838013 /* branchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		B769BC8D248F7DFF00838013 /* VCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCViewController.m; sourceTree = "<group>"; };
 		B769BC8F248F832F00838013 /* testViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		B769BC90248F832F00838013 /* testViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
+		B769BC92248F8BCC00838013 /* branchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = branchViewController.h; sourceTree = "<group>"; };
+		B769BC93248F8BCC00838013 /* branchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = branchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				B769BC8D248F7DFF00838013 /* VCViewController.m */,
 				B769BC8F248F832F00838013 /* testViewController.h */,
 				B769BC90248F832F00838013 /* testViewController.m */,
+				B769BC92248F8BCC00838013 /* branchViewController.h */,
+				B769BC93248F8BCC00838013 /* branchViewController.m */,
 			);
 			path = github;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				B769BC8E248F7DFF00838013 /* VCViewController.m in Sources */,
 				B769BC67248F78B500838013 /* main.m in Sources */,
 				B769BC59248F78B400838013 /* AppDelegate.m in Sources */,
+				B769BC94248F8BCC00838013 /* branchViewController.m in Sources */,
 				B769BC91248F832F00838013 /* testViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
