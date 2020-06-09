@@ -1,23 +1,22 @@
 //
-//  VCViewController.m
+//  testViewController.m
 //  github
 //
 //  Created by DCHealth on 2020/6/9.
 //  Copyright © 2020 DCHealth. All rights reserved.
 //
 
-#import "VCViewController.h"
+#import "testViewController.h"
 
-@interface VCViewController ()
+@interface testViewController ()
 
 @end
 
-@implementation VCViewController
+@implementation testViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"测试分支");
-   
 }
 
 /*
